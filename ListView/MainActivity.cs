@@ -24,7 +24,7 @@ namespace ListView
 
         private void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-           1 //var listView = sender as ListView;
+            //var listView = sender as ListView;
             var t = countries[e.Position];
             Toast.MakeText(this, t, ToastLength.Short).Show();
 
