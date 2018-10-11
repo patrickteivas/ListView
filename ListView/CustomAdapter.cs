@@ -45,7 +45,7 @@ namespace ListView
             if (view == null)
                 view = context.LayoutInflater.Inflate(Resource.Layout.CustomRow, null);
 
-            view.FindViewById<TextView>(Resource.Id.textView1).Text = items[position];
+             view.FindViewById<TextView>(Resource.Id.textView1).Text = items[position];
             return view;
         }
     }
